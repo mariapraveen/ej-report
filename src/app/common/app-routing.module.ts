@@ -1,7 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { Type, ModuleWithProviders, NgModule } from '@angular/core';
-import { EJ_REPORTVIEWER_COMPONENTS } from '@syncfusion/reporting-angular/src/ej/reportviewer.component'
-import { EJ_REPORTDESIGNER_COMPONENTS } from '@syncfusion/reporting-angular/src/ej/reportdesigner.component
+import { EJ_REPORTVIEWER_COMPONENTS } from '@syncfusion/reporting-angular/src/ej/reportviewer.component';
+import { EJ_REPORTDESIGNER_COMPONENTS } from '@syncfusion/reporting-angular/src/ej/reportdesigner.component';
 import { Routes, RouterModule } from '@angular/router';
 import { GettingStarted } from '../components/getting/getting.component';
 const components: any[] | Type<any> | ModuleWithProviders<{}> = [

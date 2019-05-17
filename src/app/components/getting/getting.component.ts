@@ -2,8 +2,8 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  templateUrl: './getting.component.html',
+  styleUrls: ['./getting.component.css']
 })
 export class GettingStarted {
   title = 'reportviewerapp';
