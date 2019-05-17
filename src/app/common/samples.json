@@ -1,7 +1,7 @@
 {
     "samples": [
         {
-            "routerPath": "getting-started",
+            "routerPath": "getting",
             "className": "GettingStarted",
             "sampleName": "Getting started"
         }

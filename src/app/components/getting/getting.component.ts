@@ -1,4 +1,3 @@
-const gulp = require('gulp');
 import { Component } from '@angular/core';
 
 @Component({
@@ -6,7 +5,7 @@ import { Component } from '@angular/core';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
-export class AppComponent {
+export class GettingStarted {
   title = 'reportviewerapp';
   public serviceUrl: string;  
   public reportPath: string;
