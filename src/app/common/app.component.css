@@ -11,6 +11,6 @@
 
 .ej-sample-container{
     position: absolute;
-    background: red;
     left: 250px;
+    width: calc(100% - 250px)
 }

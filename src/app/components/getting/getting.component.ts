@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-root',
+  selector: 'ej-sample',
   templateUrl: './getting.component.html',
   styleUrls: ['./getting.component.css']
 })
@@ -11,7 +11,7 @@ export class GettingStarted {
   public reportPath: string;
 
     constructor() {
-        this.serviceUrl = '{{site.reportserviceurl}}api/ReportViewer';
-        this.reportPath = '~/Resources/docs/sales-order-detail.rdl';
+        this.serviceUrl = "https://reports.syncfusion.com/demos/services/api/SamplesReportViewer";
+        this.reportPath = 'company-sales';
     }
 }
