@@ -4,6 +4,11 @@
             "routerPath": "getting",
             "className": "GettingStarted",
             "sampleName": "Getting started"
+        },
+        {
+            "routerPath": "overview",
+            "className": "Overview",
+            "sampleName": "OverView"
         }
     ]
 }

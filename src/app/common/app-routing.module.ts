@@ -4,14 +4,17 @@ import { EJ_REPORTVIEWER_COMPONENTS } from '@syncfusion/reporting-angular/src/ej
 import { EJ_REPORTDESIGNER_COMPONENTS } from '@syncfusion/reporting-angular/src/ej/reportdesigner.component';
 import { Routes, RouterModule } from '@angular/router';
 import { GettingStarted } from '../components/getting/getting.component';
+import { Overview } from '../components/overview/overview.component';
 const components: any[] | Type<any> | ModuleWithProviders<{}> = [
   EJ_REPORTVIEWER_COMPONENTS,
   EJ_REPORTDESIGNER_COMPONENTS,
-  GettingStarted
+  GettingStarted,
+  Overview
 ];
 const routes: Routes = [
   { path: '', redirectTo: 'getting', pathMatch: 'full' },
   { path: 'getting', component: GettingStarted },
+  { path: 'overview', component: Overview },
   { path: '**', redirectTo: 'getting' }
 ];
 @NgModule({

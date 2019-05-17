@@ -12,6 +12,6 @@ export class GettingStarted {
 
     constructor() {
         this.serviceUrl = "https://reports.syncfusion.com/demos/services/api/SamplesReportViewer";
-        this.reportPath = 'company-sales';
+        this.reportPath = 'sales-order-detail';
     }
 }
