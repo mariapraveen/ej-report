@@ -1,0 +1,7 @@
+/* Reports */
+@import './../node_modules/@syncfusion/reporting-javascript/Content/reports/material/ej.reports.all.min.css';
+@import './../node_modules/@syncfusion/reporting-javascript/Content/reports/material/ej.reportdesigner.min.css';
+
+/* code-mirror */
+@import './../node_modules/codemirror/lib/codemirror.css';
+@import './../node_modules/codemirror/addon/hint/show-hint.css';

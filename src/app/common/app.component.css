@@ -1,0 +1,16 @@
+.ej-container{
+    position: relative;
+}
+
+.ej-container .ej-toc-container{
+    position: absolute;
+    background: orange;
+    width: 250px;
+    left: 0
+}
+
+.ej-sample-container{
+    position: absolute;
+    background: red;
+    left: 250px;
+}

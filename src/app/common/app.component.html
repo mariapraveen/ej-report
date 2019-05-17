@@ -1,0 +1,10 @@
+<div class="ej-container">
+<div class="ej-toc-container">
+<div *ngFor="let sample of samples" (mousedown)="onSampleClick(sample)">
+  <div class="ej-sample-toc">{{sample.sampleName}}</div>
+</div>
+</div>
+<div class="ej-sample-container">
+<router-outlet></router-outlet>
+</div>
+</div>
