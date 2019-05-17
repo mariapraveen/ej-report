@@ -1,16 +1,9 @@
 {
     "samples": [
         {
-            "routerPath": "hello",
-            "className": "HelloComponent",
-            "sampleName": "Hello",
-            "directoryName": "hello"
-          },
-          {
-            "routerPath": "report",
-            "className": "ReportComponent",
-            "sampleName": "Report",
-            "directoryName": "report"
-          }
+            "routerPath": "getting-started",
+            "className": "GettingStarted",
+            "sampleName": "Getting started"
+        }
     ]
 }
